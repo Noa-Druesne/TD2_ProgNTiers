@@ -11,6 +11,6 @@
     <title>Mes paris</title>
 </head>
 <body>
-
+    <a href="/pel/menu">Retour</a>
 </body>
 </html>

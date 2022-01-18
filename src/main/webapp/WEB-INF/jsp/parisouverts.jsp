@@ -8,9 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Paris ouvert</title>
+    <title>Paris ouverts</title>
 </head>
 <body>
-
+    <a href="/pel/menu">Retour</a>
 </body>
 </html>

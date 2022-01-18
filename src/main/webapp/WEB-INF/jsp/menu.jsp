@@ -11,6 +11,12 @@
     <title>Menu</title>
 </head>
 <body>
+    <h1>MENU</h1>
+    <ul>
+        <li><a href="/pel/parisouverts">Affichez les matchs ouverts aux paris</a></li>
+        <li><a href="/pel/mesparis">Affichez mes paris</a></li>
+        <li><a href="/pel/deconnexion">Se déconnecter</a></li>
+    </ul>
 
 </body>
 </html>
