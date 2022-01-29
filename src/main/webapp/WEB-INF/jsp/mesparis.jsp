@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: noa
@@ -9,8 +10,18 @@
 <html>
 <head>
     <title>Mes paris</title>
+    <jsp:useBean id="utilisateur" type="modele.Utilisateur" scope="session"></jsp:useBean>
+    <jsp:useBean id="pari" scope="request" type="java.util.Collection"></jsp:useBean>
 </head>
 <body>
+    <h2>Voici vos paris !!</h2>
+    <p>J'éspère que vous allez perdre toutes votre oseille "${utilisateur.login}".</p>
+    <p>Comme ça, vous faites comme Hugo et vous rejouez et on s'enrichit sur votre dos :)</p>
+    <ul>
+        <c:forEach var="paris" items="${pari}">
+            <li>Sport : ${paris.match.sport} - ${paris.match.equipe1} vs ${paris.match.equipe2} - le ${paris.match.quand}. Mise de ${paris.montant} euros sur ${paris.vainqueur}. <a href="/pel/annuler?id=${paris.getIdPari()}"> Annuler</a> </li>
+        </c:forEach>
+    </ul>
     <a href="/pel/menu">Retour</a>
 </body>
 </html>

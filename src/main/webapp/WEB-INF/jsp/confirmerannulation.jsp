@@ -9,8 +9,13 @@
 <html>
 <head>
     <title>Annulation</title>
+    <jsp:useBean id="pari" scope="request" type="modele.Pari"></jsp:useBean>
+    <jsp:useBean id="utilisateur" type="modele.Utilisateur" scope="session"></jsp:useBean>
 </head>
 <body>
-
+    <h2>Pfff, tu annules ton pari ?? Sérieux...</h2>
+    <p>C'est ton choix après tout "${utilisateur.login}".</p>
+    <p>La mise de ${pari.montant} euros sur la victoire de : ${pari.vainqueur} pour le match : ${pari.match.equipe1} vs ${pari.match.equipe2} le ${pari.match.quand} a bien été annulée.</p>
+    <a href="/pel/mesparis">Voir mes paris</a>
 </body>
 </html>
