@@ -1,0 +1,15 @@
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/OperationNonAuthoriseeException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/MontantNegatifOuNulException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/modele/Pari.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/UtilisateurNonAdminException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/FacadeParis.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/FacadeParisStaticImpl.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/controller/Admin.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/modele/Utilisateur.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/InformationsSaisiesIncoherentesException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/ResultatImpossibleException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/controller/InitApplication.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/UtilisateurDejaConnecteException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/controller/Controller.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/facade/exceptions/MatchClosException.java
+/home/noa/IdeaProjects/TD_ProgNTiers/TD2/src/main/java/modele/Match.java
